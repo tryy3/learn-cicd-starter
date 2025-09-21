@@ -31,7 +31,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
-          go-version: "0.25.1"
+          go-version: "1.25.1"
 
       - name: Run style checks
         run: test -z $(go fmt ./...)
